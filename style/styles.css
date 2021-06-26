@@ -102,7 +102,12 @@ h1, h2{
     margin-right: 20px;
 }
 
-span.markComplete{
+span.hide-list{
+    font-size: 20px !important;
+}
+
+span.markComplete,
+span.hide-list{
     font-size: 16px;
     padding: 3px;
     border-radius: 50%;
@@ -110,7 +115,8 @@ span.markComplete{
     cursor: pointer;
 }
 
-span.markComplete:hover{
+span.markComplete:hover,
+span.hide-list:hover{
     background: #4A00E0;
     color: #fff;
 }
@@ -243,15 +249,6 @@ textarea:focus{
 #add-list input:focus{
     outline: 0;
     border: 1px solid #4A00E0;
-}
-
-.hide-list{
-    cursor: pointer;
-    color: #ddd;
-}
-
-.hide-list:hover{
-    color: #4A00E0;
 }
 
 #add-list button{
