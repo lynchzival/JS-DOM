@@ -245,10 +245,13 @@ textarea:focus{
     border: 1px solid #4A00E0;
 }
 
-#hide{
-    /* display: block; */
+.hide-list{
     cursor: pointer;
-    /* margin: auto; */
+    color: #ddd;
+}
+
+.hide-list:hover{
+    color: #4A00E0;
 }
 
 #add-list button{
