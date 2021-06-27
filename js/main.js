@@ -149,6 +149,8 @@
 		});
 	});
 
+	searchForm.addEventListener('submit', function(e){ e.preventDefault(); });
+
 	const hideListBtn = document.querySelector(".title-container > span.hide-list");
 	hideListBtn.addEventListener('click', function(e){
 		let style = e.target.parentNode.nextElementSibling.style;
